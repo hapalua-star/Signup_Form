@@ -140,7 +140,7 @@ p{
     flex-direction:column;
     margin-right: 15px;
     margin-left: 6px;
-    
+    margin-top: 3px;
 
 }
 
@@ -166,4 +166,9 @@ button{
     border-radius: 5px;
     color: white;
     background-color: #596D48;
+}
+
+a{
+
+    color:#596D48;
 }
