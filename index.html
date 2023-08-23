@@ -30,41 +30,43 @@
                
                <div class="inputgroup"> 
                 <label for="first_name">First Name</label>
-                <input type="text" id="first_name" name="first_name">
+                <input type="text" id="first_name" name="first_name" pattern="[A-Za-z]{3,10}"  required>
                </div>
 
                <div class="inputgroup">
                 <label for="last_name">Last Name</label>
-                <input type="text" id="last_name" name="last_name">
+                <input type="text" id="last_name" name="last_name"  pattern="[A-Za-z]{3,10}"required>
                </div>
 
                <div class="inputgroup">
                 <label for="email">EMAIL</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" pattern="[a-zA-Z0-9]{1,}@gmail.com" required>
                </div>
 
                <div class="inputgroup">
-                <label for="phone">PHONE NUMBER</label>
-                <input type="tel" id="phone" name="phone">
+                <label for="phone">PHONE NUMBER</label >
+                <input type="tel" id="phone" name="phone" pattern="\d{10}|(\d{3}[.\s\-]\d{3}[.\s\-]\d{4})" required>
                </div>
 
                <div class="inputgroup">
                 <label for="pass">PASSWORD</label>
-                <input type="password" id="pass" name="pass">
+                <input type="password" id="pass" name="pass" minlength="5" maxlength="10" required>
                </div>
 
                <div class="inputgroup">        
                 <label for="confpass">CONFIRM PASSWORD</label>
-                <input type="password" id="confpass" name="confpass">
+                <input type="password" id="confpass" name="confpass" minlength="5" maxlength="10" required>
                </div>
 
               </fieldset>
-            
+              
+              <div class="button">
+                <button>Create Account</button>
+              </div>
+
            </form>
             
-           <div class="button">
-             <button>Create Account</button>
-           </div>
+           
 
            <div class="login">
             <a href="https://www.google.com">Login</a>

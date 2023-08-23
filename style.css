@@ -168,7 +168,35 @@ button{
     background-color: #596D48;
 }
 
+.button
+{
+    margin-top: 50px;
+    margin-left: 133px;
+}
+
 a{
 
     color:#596D48;
+}
+
+input:focus
+{
+    border-color: blue ;
+    outline: none;
+   
+      
+      
+}
+
+input:invalid:focus     
+{
+
+    border-color: red;
+
+}
+
+input:valid:focus
+{
+
+    border-color: green;
 }
